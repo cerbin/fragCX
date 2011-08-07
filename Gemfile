@@ -29,3 +29,4 @@ gem "mysql2", '0.2.9'
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem 'devise'
