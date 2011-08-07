@@ -1,5 +1,5 @@
   development:
-    adapter: mysql
+    adapter: mysql2
     host: localhost
     port: 3306
     username: root
@@ -12,7 +12,7 @@
   # re-generated from your development database when you run "rake".
   # Do not set this db to the same as development or production.
   test: &test
-    adapter: mysql
+    adapter: mysql2
     host: localhost
     port: 3306
     username: root
@@ -21,7 +21,7 @@
     encoding: utf8
 
   production:
-    adapter: mysql
+    adapter: mysql2
     host: localhost
     port: 3306
     username: root
